@@ -22,8 +22,8 @@
 </head>
 
 <body>
-	<div id="wrap" style="width:850px">
-	    <div id="container" style="width:560px">
+	<div id="wrap" style="width:70%">
+	    <div id="container" style="width:60%">
             {% include 'github.html' %}
 
 
@@ -44,13 +44,13 @@
             <nav>
                 <ul>
                 {% for page in pages %}
-                    <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>{% if not loop.last %} :: {% endif %}</li>
+                    <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a> ::
                 {%- endfor %}
-                {% if categories|length > 1 %}
-                    <li>:: <a href="{{ SITEURL }}/categories.html">Categories</a></li>
-                {% endif %}
-                {% if tags|length > 1 %}
-                    <li>:: <a href="{{ SITEURL }}/tags.html">Tags</a></li>
+                {% if categories|length >= 1 %}
+                    <a href="{{ SITEURL }}/categories.html">Categories</a> ::
+                {%- endif %}
+                {% if tags|length >= 1 %}
+                    <a href="{{ SITEURL }}/tags.html">Tags</a>
                 {% endif %}
                 </ul>
             </nav>
