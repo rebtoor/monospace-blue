@@ -18,18 +18,18 @@ a:hover { color:#FFF; background-color:#0A64C8 }
 h1, h2, h3, h4, h5, h6, h7 { margin:0px; text-transform:uppercase; }
 h4, h5, h6 { font-size:14px; }
 h1 { padding:0px 0px 15px; margin:0px 0px 15px 0px; }
-blockquote { font-style:italic; background:#EAEAEA; margin:20px; padding:5px 10px; }
+blockquote { font-style:italic; background:#EAEAEA; margin:10px; padding:5px 10px; }
 blockquote cite { display:block; padding:10px 20px 0 0; text-align:right; }
 input, textarea { padding:5px; border:1px solid #8A8A8A; background:#EAEAEA; }
 input:hover, textarea:hover, blockquote:hover { background:#E5E5E5; }
 
 #wrap { margin:0px auto; text-align:left; font-size: 13px; line-height: 1.4; }
 #container { float:right; }
-#sidebar { overflow:hidden; clear:left; text-align:right; width:30%; height:auto; padding:0px 15px 0px 0px; border-right:1px dotted #C8C8C8; }
+#sidebar { overflow:hidden; clear:left; text-align:left; width:18%; height:auto; padding:0px 15px 0px 0px; border-right:1px dotted #C8C8C8; }
 #sidebar li { list-style-type:none; }
 #sidebar > li { margin:20px 0px; }
 #sidebar h1 { border-bottom:1px dotted #C8C8C8; }
-#sidebar .description { display:block; width:100%; height:auto; margin:0px 0px 10px 0px; }
+#sidebar .description { display:block; word-wrap: break-word; width:100%; height:auto; margin:0px 0px 10px 0px; }
 
 ul.sub-menu, ul.children { margin:0px 10px 0px 0px; }
 
