@@ -12,3 +12,7 @@ DESCRIPTION = 'foobar'
 ```
 
 SHOW_SOME_LOVE add some text in the footer. I used it to show my love for OpenBSD. :)
+
+```
+SHOW_SOME_LOVE = 'Proudly powered by OpenBSD'
+```
